@@ -16,7 +16,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/Arwwwnbl09/github_maven</url>
+      <url>https://maven.pkg.github.com/falnam/github_maven</url>
     </repository>
   </distributionManagement>
   
@@ -24,6 +24,15 @@
      <maven.compiler.source>1.8</maven.compiler.source>
      <maven.compiler.target>1.8</maven.compiler.target>
  </properties>
+
+	<properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <sonar.organization>falnam</sonar.organization>
+    <sonar.projectKey>github_maven</sonar.projectKey>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
+	
   
 </project>
 
