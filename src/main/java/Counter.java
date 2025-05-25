@@ -44,6 +44,8 @@ public class Counter {
 	public boolean isCountEven(){
 		return count%2 == 0;
 	}
+
+	public biilean
 	
 	public int getCount() {
 		return count;
